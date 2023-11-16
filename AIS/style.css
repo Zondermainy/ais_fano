@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "PressStart2P-Regular";
+    font-weight: 400;
+    font-style: normal;
+    src:local("PressStart2P-Regular"), 
+        url("../fonts/PressStart2P-Regular.woff2") format('woff2'),
+        url("../fonts/PressStart2P-Regular.eot") format('eot');
+    font-display: swap;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.title1 {
+    color: #8400ff;
+    font-family:"PressStart2P-Regular", sans-serif; 
+    font-size: 5.32vmin;
+    line-height: 100px;
+    font-style: italic;
+    text-shadow: #ffffff;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px;
+    background: url(../images/skytrue.png) repeat round ;
+}
+.title2 {
+    color: #000000;
+    font-family:"PressStart2P-Regular", sans-serif; 
+    font-size: 5vmin;
+    line-height: 100px;
+    font-style: italic;
+    text-shadow: #ffffff;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px;
+    border-top: 5px solid #8400ff;
+}
+
+.punkts-1{
+    font-size: larger;
+    text-align: center;
+}
+
+.mainmenubuttons{
+    color: #5305a7;
+    text-indent: 50px;
+    white-space: normal;
+    font-family: "PressStart2P-Regular", cursive, sans-serif; 
+    text-align: right;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.button_1{
+    box-shadow: 0 0 5px greenyellow,
+    0 0 25px greenyellow;
+    color: #000000;
+    background-color: greenyellow;
+    padding: 5px;
+    font-size: 3.40vmin;
+}
+
+.button_2{
+    box-shadow: 0 0 5px grey;
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    font-size: 3.40vmin;
+}
+.button_3{
+    box-shadow: 0 0 5px grey;
+    padding: 5px;
+    font-size: 3.40vmin;
+    background-color: rgb(223, 223, 223)
+}
+.button_4{
+    box-shadow: 0 0 5px grey;
+    padding: 5px;
+    font-size: 3.40vmin;
+    background-color: rgb(223, 223, 223)
+}
+
+.button_2:hover{
+    box-shadow: 0 0 5px rgb(223, 223, 223),
+    0 0 25px rgb(223, 223, 223), 0 0 50px rgb(223, 223, 223),
+    0 0 100px rgb(223, 223, 223);
+}
+
+.button_3:hover{
+    box-shadow: 0 0 5px rgb(223, 223, 223),
+    0 0 25px rgb(223, 223, 223), 0 0 50px rgb(223, 223, 223),
+    0 0 100px rgb(223, 223, 223);
+}
+
+.button_4:hover{
+    box-shadow: 0 0 5px rgb(223, 223, 223),
+    0 0 25px rgb(223, 223, 223), 0 0 50px rgb(223, 223, 223),
+    0 0 100px rgb(223, 223, 223);
+}
+
+
+
+.button_1:hover{
+    box-shadow: 0 0 5px greenyellow,
+    0 0 25px greenyellow, 0 0 50px greenyellow,
+    0 0 100px greenyellow;
+}
+
+
+.line {
+    height: 0.3vmax;
+    width: 100%;
+    background-color: #7b00ff;
+}
+
+.text-2 {
+    text-align: center;
+    font-size: 3.5vmin;
+    text-decoration: none;
+    color: rgb(0, 116, 218);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+
+.content-1_block{
+    box-sizing: border-box;
+}
+
+.minecraftimg{
+    width: 150vmin;
+}
+
+.secondline{
+    background-color: #8400ff;
+    height: 4px;
+}
+
+.connectlogo{
+    font-family: "PressStart2P-Regular", cursive, sans-serif;
+    margin-left: 30px;
+    margin-right: 10px;
+    line-height: 23px
+
+}
+.connectlogo_main{
+    text-align: center;
+}
+a{
+    color: #8400ff;
+}
+
+.connectlogo_photos{
+    margin: 25px;
+    text-align: center;
+}
+.rules{
+    font-family: "PressStart2P-Regular", cursive, sans-serif;
+    margin-left: 30px;
+    margin-right: 10px;
+    line-height: 23px
+
+}
+.ip{
+    color:rgb(25, 0, 255);
+}
+.imgs{
+    text-align: center;
+}
+
+.images{
+    width: 100%; 
+    height: auto; 
+    max-width: 900px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 35px;
+}
+
+.footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #353638;
+}
+
+.footer_text{
+    color: #ffffff;
+    font-family:"PressStart2P-Regular", sans-serif; 
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer_contact{
+    color: #fd79dc;
+}
+
+.footer_contact2{
+    color: #5586e7;
+}
+
+
+
